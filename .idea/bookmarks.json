@@ -1,1 +1,10 @@
-{}
+{
+  "JavaTest": [
+    {
+      "fileDescriptor": "C:/Users/tlj/.m2/repository/com/alibaba/fastjson/1.2.23/fastjson-1.2.23-sources.jar!/com/alibaba/fastjson/parser/deserializer/JavaBeanDeserializer.java",
+      "linenumber": 93,
+      "name": "反序列化接口，使用JSONObject动态代理",
+      "bookmarkType": "DEFAULT"
+    }
+  ]
+}
