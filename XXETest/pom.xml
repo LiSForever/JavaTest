@@ -49,7 +49,26 @@
 <!--            <artifactId>commons-digester3</artifactId>-->
 <!--            <version>3.3-SNAPSHOT</version>-->
 <!--        </dependency>-->
+        <dependency>
+            <groupId>fr.opensagres.xdocreport</groupId>
+            <artifactId>xdocreport</artifactId>
+            <version>2.0.2</version>
+        </dependency>
 
+
+        <!-- Apache POI - 支持 .docx 格式 -->
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>5.2.3</version> <!-- 最新版本 -->
+        </dependency>
+
+        <!-- Apache POI - 支持 Open XML 架构 -->
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml-schemas</artifactId>
+            <version>4.1.2</version>
+        </dependency>
     </dependencies>
 
 </project>

