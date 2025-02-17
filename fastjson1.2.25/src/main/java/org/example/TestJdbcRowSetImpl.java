@@ -16,11 +16,11 @@ public class TestJdbcRowSetImpl {
 //        rowSet.setDataSourceName("rmi://localhost:1999/obj");
 //        rowSet.setAutoCommit(true);
         String fastSer =  "{\"@type\":\"Lcom.sun.rowset.JdbcRowSetImpl;\",\"dataSourceName\":\"rmi://localhost:1999/obj\", \"autoCommit\":true}";
-//        ParserConfig.getGlobalInstance().setAutoTypeSupport(true);  //开启autoTypeSupport
-//        JSON.parseObject(fastSer);
+        ParserConfig.getGlobalInstance().setAutoTypeSupport(true);  //开启autoTypeSupport
+        JSON.parseObject(fastSer);
 //        JSON.parseObject(fastSer,Object.class);
 //        JSON.parseObject(fastSer, Serializable.class);
-        JSON.parseObject(fastSer, Wrapper.class);
+//        JSON.parseObject(fastSer, Wrapper.class);
 //        JSON.parseObject(fastSer, JdbcRowSet.class);
 //        JSON.parseObject(fastSer, BaseRowSet.class);
 //        JSON.parseObject(fastSer,com.sun.rowset.JdbcRowSetImpl.class);
