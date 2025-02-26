@@ -22,6 +22,7 @@
         <module>fastjson1.2.63</module>
         <module>fastjson1.2.67</module>
         <module>fastjson1.2.68</module>
+        <module>Test</module>
     </modules>
 
     <properties>
